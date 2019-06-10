@@ -20,8 +20,8 @@ import (
 	"sync/atomic"
 	"syscall"
 
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/link/rawfile"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/link/sharedmem/queue"
+	"gvisor.dev/pkg/tcpip/link/rawfile"
+	"gvisor.dev/pkg/tcpip/link/sharedmem/queue"
 )
 
 // rx holds all state associated with an rx queue.

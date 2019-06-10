@@ -19,9 +19,9 @@ package linux
 import (
 	"syscall"
 
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/arch"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/kernel"
+	"gvisor.dev/pkg/abi/linux"
+	"gvisor.dev/pkg/sentry/arch"
+	"gvisor.dev/pkg/sentry/kernel"
 )
 
 // ArchPrctl implements linux syscall arch_prctl(2).

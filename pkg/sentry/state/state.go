@@ -19,12 +19,12 @@ import (
 	"fmt"
 	"io"
 
-	"gvisor.googlesource.com/gvisor/pkg/log"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/inet"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/kernel"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/watchdog"
-	"gvisor.googlesource.com/gvisor/pkg/state/statefile"
-	"gvisor.googlesource.com/gvisor/pkg/syserror"
+	"gvisor.dev/pkg/log"
+	"gvisor.dev/pkg/sentry/inet"
+	"gvisor.dev/pkg/sentry/kernel"
+	"gvisor.dev/pkg/sentry/watchdog"
+	"gvisor.dev/pkg/state/statefile"
+	"gvisor.dev/pkg/syserror"
 )
 
 var previousMetadata map[string]string

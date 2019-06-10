@@ -22,17 +22,17 @@ import (
 	"syscall"
 
 	specs "github.com/opencontainers/runtime-spec/specs-go"
-	"gvisor.googlesource.com/gvisor/pkg/control/server"
-	"gvisor.googlesource.com/gvisor/pkg/log"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/control"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/fs"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/kernel"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/socket/epsocket"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/state"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/time"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/watchdog"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/stack"
-	"gvisor.googlesource.com/gvisor/pkg/urpc"
+	"gvisor.dev/pkg/control/server"
+	"gvisor.dev/pkg/log"
+	"gvisor.dev/pkg/sentry/control"
+	"gvisor.dev/pkg/sentry/fs"
+	"gvisor.dev/pkg/sentry/kernel"
+	"gvisor.dev/pkg/sentry/socket/epsocket"
+	"gvisor.dev/pkg/sentry/state"
+	"gvisor.dev/pkg/sentry/time"
+	"gvisor.dev/pkg/sentry/watchdog"
+	"gvisor.dev/pkg/tcpip/stack"
+	"gvisor.dev/pkg/urpc"
 )
 
 const (

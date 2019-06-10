@@ -17,14 +17,14 @@ package mm
 import (
 	"fmt"
 
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/memmap"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/platform"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/platform/safecopy"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/safemem"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usage"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usermem"
-	"gvisor.googlesource.com/gvisor/pkg/syserror"
+	"gvisor.dev/pkg/sentry/context"
+	"gvisor.dev/pkg/sentry/memmap"
+	"gvisor.dev/pkg/sentry/platform"
+	"gvisor.dev/pkg/sentry/platform/safecopy"
+	"gvisor.dev/pkg/sentry/safemem"
+	"gvisor.dev/pkg/sentry/usage"
+	"gvisor.dev/pkg/sentry/usermem"
+	"gvisor.dev/pkg/syserror"
 )
 
 // existingPMAsLocked checks that pmas exist for all addresses in ar, and

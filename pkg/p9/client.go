@@ -20,8 +20,8 @@ import (
 	"sync"
 	"syscall"
 
-	"gvisor.googlesource.com/gvisor/pkg/log"
-	"gvisor.googlesource.com/gvisor/pkg/unet"
+	"gvisor.dev/pkg/log"
+	"gvisor.dev/pkg/unet"
 )
 
 // ErrOutOfTags indicates no tags are available.

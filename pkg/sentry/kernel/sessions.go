@@ -15,10 +15,10 @@
 package kernel
 
 import (
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
-	"gvisor.googlesource.com/gvisor/pkg/refs"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/arch"
-	"gvisor.googlesource.com/gvisor/pkg/syserror"
+	"gvisor.dev/pkg/abi/linux"
+	"gvisor.dev/pkg/refs"
+	"gvisor.dev/pkg/sentry/arch"
+	"gvisor.dev/pkg/syserror"
 )
 
 // SessionID is the public identifier.

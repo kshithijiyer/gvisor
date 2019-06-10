@@ -20,15 +20,15 @@ import (
 	"sort"
 	"strconv"
 
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/fs"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/fs/fsutil"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/fs/proc/device"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/fs/proc/seqfile"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/fs/ramfs"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/kernel"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/socket/rpcinet"
-	"gvisor.googlesource.com/gvisor/pkg/syserror"
+	"gvisor.dev/pkg/sentry/context"
+	"gvisor.dev/pkg/sentry/fs"
+	"gvisor.dev/pkg/sentry/fs/fsutil"
+	"gvisor.dev/pkg/sentry/fs/proc/device"
+	"gvisor.dev/pkg/sentry/fs/proc/seqfile"
+	"gvisor.dev/pkg/sentry/fs/ramfs"
+	"gvisor.dev/pkg/sentry/kernel"
+	"gvisor.dev/pkg/sentry/socket/rpcinet"
+	"gvisor.dev/pkg/syserror"
 )
 
 // proc is a root proc node.

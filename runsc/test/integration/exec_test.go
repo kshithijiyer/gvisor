@@ -34,8 +34,8 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
-	"gvisor.googlesource.com/gvisor/runsc/test/testutil"
+	"gvisor.dev/pkg/abi/linux"
+	"gvisor.dev/runsc/test/testutil"
 )
 
 func TestExecCapabilities(t *testing.T) {

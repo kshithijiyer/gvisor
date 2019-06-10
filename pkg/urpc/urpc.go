@@ -29,9 +29,9 @@ import (
 	"runtime"
 	"sync"
 
-	"gvisor.googlesource.com/gvisor/pkg/fd"
-	"gvisor.googlesource.com/gvisor/pkg/log"
-	"gvisor.googlesource.com/gvisor/pkg/unet"
+	"gvisor.dev/pkg/fd"
+	"gvisor.dev/pkg/log"
+	"gvisor.dev/pkg/unet"
 )
 
 // maxFiles determines the maximum file payload.

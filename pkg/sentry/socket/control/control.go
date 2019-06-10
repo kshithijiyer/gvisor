@@ -17,16 +17,16 @@
 package control
 
 import (
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
-	"gvisor.googlesource.com/gvisor/pkg/binary"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/fs"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/kernel"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/kernel/auth"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/kernel/kdefs"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/socket/unix/transport"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usermem"
-	"gvisor.googlesource.com/gvisor/pkg/syserror"
+	"gvisor.dev/pkg/abi/linux"
+	"gvisor.dev/pkg/binary"
+	"gvisor.dev/pkg/sentry/context"
+	"gvisor.dev/pkg/sentry/fs"
+	"gvisor.dev/pkg/sentry/kernel"
+	"gvisor.dev/pkg/sentry/kernel/auth"
+	"gvisor.dev/pkg/sentry/kernel/kdefs"
+	"gvisor.dev/pkg/sentry/socket/unix/transport"
+	"gvisor.dev/pkg/sentry/usermem"
+	"gvisor.dev/pkg/syserror"
 )
 
 const maxInt = int(^uint(0) >> 1)

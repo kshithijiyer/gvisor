@@ -23,8 +23,8 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"gvisor.googlesource.com/gvisor/pkg/p9"
-	"gvisor.googlesource.com/gvisor/pkg/unet"
+	"gvisor.dev/pkg/p9"
+	"gvisor.dev/pkg/unet"
 )
 
 // Harness is an attacher mock.

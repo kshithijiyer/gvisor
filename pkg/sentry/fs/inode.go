@@ -15,16 +15,16 @@
 package fs
 
 import (
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
-	"gvisor.googlesource.com/gvisor/pkg/log"
-	"gvisor.googlesource.com/gvisor/pkg/metric"
-	"gvisor.googlesource.com/gvisor/pkg/refs"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/fs/lock"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/kernel/auth"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/memmap"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/socket/unix/transport"
-	"gvisor.googlesource.com/gvisor/pkg/syserror"
+	"gvisor.dev/pkg/abi/linux"
+	"gvisor.dev/pkg/log"
+	"gvisor.dev/pkg/metric"
+	"gvisor.dev/pkg/refs"
+	"gvisor.dev/pkg/sentry/context"
+	"gvisor.dev/pkg/sentry/fs/lock"
+	"gvisor.dev/pkg/sentry/kernel/auth"
+	"gvisor.dev/pkg/sentry/memmap"
+	"gvisor.dev/pkg/sentry/socket/unix/transport"
+	"gvisor.dev/pkg/syserror"
 )
 
 var opens = metric.MustCreateNewUint64Metric("/fs/opens", false /* sync */, "Number of file opens.")

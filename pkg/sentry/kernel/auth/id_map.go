@@ -15,9 +15,9 @@
 package auth
 
 import (
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context"
-	"gvisor.googlesource.com/gvisor/pkg/syserror"
+	"gvisor.dev/pkg/abi/linux"
+	"gvisor.dev/pkg/sentry/context"
+	"gvisor.dev/pkg/syserror"
 )
 
 // MapFromKUID translates kuid, a UID in the root namespace, to a UID in ns.

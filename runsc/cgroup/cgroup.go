@@ -30,8 +30,8 @@ import (
 
 	"github.com/cenkalti/backoff"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
-	"gvisor.googlesource.com/gvisor/pkg/log"
-	"gvisor.googlesource.com/gvisor/runsc/specutils"
+	"gvisor.dev/pkg/log"
+	"gvisor.dev/runsc/specutils"
 )
 
 const (

@@ -17,10 +17,10 @@ package fs
 import (
 	"errors"
 
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context"
-	ktime "gvisor.googlesource.com/gvisor/pkg/sentry/kernel/time"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/memmap"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/socket/unix/transport"
+	"gvisor.dev/pkg/sentry/context"
+	ktime "gvisor.dev/pkg/sentry/kernel/time"
+	"gvisor.dev/pkg/sentry/memmap"
+	"gvisor.dev/pkg/sentry/socket/unix/transport"
 )
 
 var (

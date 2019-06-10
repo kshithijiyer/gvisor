@@ -21,15 +21,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gvisor.googlesource.com/gvisor/pkg/rand"
-	"gvisor.googlesource.com/gvisor/pkg/sleep"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/buffer"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/header"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/seqnum"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/stack"
-	"gvisor.googlesource.com/gvisor/pkg/tmutex"
-	"gvisor.googlesource.com/gvisor/pkg/waiter"
+	"gvisor.dev/pkg/rand"
+	"gvisor.dev/pkg/sleep"
+	"gvisor.dev/pkg/tcpip"
+	"gvisor.dev/pkg/tcpip/buffer"
+	"gvisor.dev/pkg/tcpip/header"
+	"gvisor.dev/pkg/tcpip/seqnum"
+	"gvisor.dev/pkg/tcpip/stack"
+	"gvisor.dev/pkg/tmutex"
+	"gvisor.dev/pkg/waiter"
 )
 
 // EndpointState represents the state of a TCP endpoint.

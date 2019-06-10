@@ -19,13 +19,13 @@ import (
 	"io"
 	"syscall"
 
-	"gvisor.googlesource.com/gvisor/pkg/binary"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/arch"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/fs"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/kernel"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/kernel/kdefs"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usermem"
-	"gvisor.googlesource.com/gvisor/pkg/syserror"
+	"gvisor.dev/pkg/binary"
+	"gvisor.dev/pkg/sentry/arch"
+	"gvisor.dev/pkg/sentry/fs"
+	"gvisor.dev/pkg/sentry/kernel"
+	"gvisor.dev/pkg/sentry/kernel/kdefs"
+	"gvisor.dev/pkg/sentry/usermem"
+	"gvisor.dev/pkg/syserror"
 )
 
 // Getdents implements linux syscall getdents(2) for 64bit systems.

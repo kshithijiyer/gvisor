@@ -27,12 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.googlesource.com/gvisor/pkg/tcpip"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/buffer"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/header"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/link/sharedmem/pipe"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/link/sharedmem/queue"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/stack"
+	"gvisor.dev/pkg/tcpip"
+	"gvisor.dev/pkg/tcpip/buffer"
+	"gvisor.dev/pkg/tcpip/header"
+	"gvisor.dev/pkg/tcpip/link/sharedmem/pipe"
+	"gvisor.dev/pkg/tcpip/link/sharedmem/queue"
+	"gvisor.dev/pkg/tcpip/stack"
 )
 
 const (

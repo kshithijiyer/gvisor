@@ -19,17 +19,17 @@ import (
 	"io"
 	"sync"
 
-	"gvisor.googlesource.com/gvisor/pkg/log"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/fs"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/kernel/time"
-	ktime "gvisor.googlesource.com/gvisor/pkg/sentry/kernel/time"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/memmap"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/pgalloc"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/platform"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/safemem"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usage"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usermem"
+	"gvisor.dev/pkg/log"
+	"gvisor.dev/pkg/sentry/context"
+	"gvisor.dev/pkg/sentry/fs"
+	"gvisor.dev/pkg/sentry/kernel/time"
+	ktime "gvisor.dev/pkg/sentry/kernel/time"
+	"gvisor.dev/pkg/sentry/memmap"
+	"gvisor.dev/pkg/sentry/pgalloc"
+	"gvisor.dev/pkg/sentry/platform"
+	"gvisor.dev/pkg/sentry/safemem"
+	"gvisor.dev/pkg/sentry/usage"
+	"gvisor.dev/pkg/sentry/usermem"
 )
 
 // Lock order (compare the lock order model in mm/mm.go):

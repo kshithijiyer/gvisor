@@ -16,17 +16,17 @@
 package tmpfs
 
 import (
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/fs"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/fs/fsutil"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/fs/ramfs"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/kernel"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/kernel/pipe"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/socket/unix/transport"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usage"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usermem"
-	"gvisor.googlesource.com/gvisor/pkg/syserror"
+	"gvisor.dev/pkg/abi/linux"
+	"gvisor.dev/pkg/sentry/context"
+	"gvisor.dev/pkg/sentry/fs"
+	"gvisor.dev/pkg/sentry/fs/fsutil"
+	"gvisor.dev/pkg/sentry/fs/ramfs"
+	"gvisor.dev/pkg/sentry/kernel"
+	"gvisor.dev/pkg/sentry/kernel/pipe"
+	"gvisor.dev/pkg/sentry/socket/unix/transport"
+	"gvisor.dev/pkg/sentry/usage"
+	"gvisor.dev/pkg/sentry/usermem"
+	"gvisor.dev/pkg/syserror"
 )
 
 var fsInfo = fs.Info{

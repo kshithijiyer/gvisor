@@ -17,13 +17,13 @@ package fsutil
 import (
 	"sync"
 
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/fs"
-	ktime "gvisor.googlesource.com/gvisor/pkg/sentry/kernel/time"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/memmap"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/socket/unix/transport"
-	"gvisor.googlesource.com/gvisor/pkg/syserror"
-	"gvisor.googlesource.com/gvisor/pkg/waiter"
+	"gvisor.dev/pkg/sentry/context"
+	"gvisor.dev/pkg/sentry/fs"
+	ktime "gvisor.dev/pkg/sentry/kernel/time"
+	"gvisor.dev/pkg/sentry/memmap"
+	"gvisor.dev/pkg/sentry/socket/unix/transport"
+	"gvisor.dev/pkg/syserror"
+	"gvisor.dev/pkg/waiter"
 )
 
 // SimpleFileInode is a simple implementation of InodeOperations.

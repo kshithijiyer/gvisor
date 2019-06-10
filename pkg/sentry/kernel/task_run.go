@@ -19,13 +19,13 @@ import (
 	"runtime"
 	"sync/atomic"
 
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/arch"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/hostcpu"
-	ktime "gvisor.googlesource.com/gvisor/pkg/sentry/kernel/time"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/memmap"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/platform"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usermem"
+	"gvisor.dev/pkg/abi/linux"
+	"gvisor.dev/pkg/sentry/arch"
+	"gvisor.dev/pkg/sentry/hostcpu"
+	ktime "gvisor.dev/pkg/sentry/kernel/time"
+	"gvisor.dev/pkg/sentry/memmap"
+	"gvisor.dev/pkg/sentry/platform"
+	"gvisor.dev/pkg/sentry/usermem"
 )
 
 // A taskRunState is a reified state in the task state machine. See README.md

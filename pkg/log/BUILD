@@ -11,7 +11,7 @@ go_library(
         "json_k8s.go",
         "log.go",
     ],
-    importpath = "gvisor.googlesource.com/gvisor/pkg/log",
+    importpath = "gvisor.dev/pkg/log",
     visibility = [
         "//visibility:public",
     ],

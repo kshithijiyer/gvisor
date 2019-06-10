@@ -21,10 +21,10 @@ import (
 	"sync"
 	"syscall"
 
-	"gvisor.googlesource.com/gvisor/pkg/procid"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/arch"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/platform"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usermem"
+	"gvisor.dev/pkg/procid"
+	"gvisor.dev/pkg/sentry/arch"
+	"gvisor.dev/pkg/sentry/platform"
+	"gvisor.dev/pkg/sentry/usermem"
 )
 
 // globalPool exists to solve two distinct problems:

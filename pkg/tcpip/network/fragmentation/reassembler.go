@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/buffer"
+	"gvisor.dev/pkg/tcpip/buffer"
 )
 
 type hole struct {

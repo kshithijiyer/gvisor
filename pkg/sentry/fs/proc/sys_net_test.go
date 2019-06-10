@@ -17,9 +17,9 @@ package proc
 import (
 	"testing"
 
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/inet"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usermem"
+	"gvisor.dev/pkg/sentry/context"
+	"gvisor.dev/pkg/sentry/inet"
+	"gvisor.dev/pkg/sentry/usermem"
 )
 
 func TestQuerySendBufferSize(t *testing.T) {

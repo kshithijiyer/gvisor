@@ -8,7 +8,7 @@ go_library(
         "sighandling.go",
         "sighandling_unsafe.go",
     ],
-    importpath = "gvisor.googlesource.com/gvisor/pkg/sentry/sighandling",
+    importpath = "gvisor.dev/pkg/sentry/sighandling",
     visibility = ["//pkg/sentry:internal"],
     deps = ["//pkg/abi/linux"],
 )

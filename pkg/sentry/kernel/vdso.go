@@ -17,11 +17,11 @@ package kernel
 import (
 	"fmt"
 
-	"gvisor.googlesource.com/gvisor/pkg/binary"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/pgalloc"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/platform"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/safemem"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usermem"
+	"gvisor.dev/pkg/binary"
+	"gvisor.dev/pkg/sentry/pgalloc"
+	"gvisor.dev/pkg/sentry/platform"
+	"gvisor.dev/pkg/sentry/safemem"
+	"gvisor.dev/pkg/sentry/usermem"
 )
 
 // vdsoParams are the parameters exposed to the VDSO.

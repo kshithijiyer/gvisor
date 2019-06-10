@@ -38,8 +38,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/buffer"
-	"gvisor.googlesource.com/gvisor/pkg/waiter"
+	"gvisor.dev/pkg/tcpip/buffer"
+	"gvisor.dev/pkg/waiter"
 )
 
 // Error represents an error in the netstack error space. Using a special type

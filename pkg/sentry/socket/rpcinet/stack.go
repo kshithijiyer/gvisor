@@ -18,12 +18,12 @@ import (
 	"fmt"
 	"syscall"
 
-	"gvisor.googlesource.com/gvisor/pkg/sentry/inet"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/socket/hostinet"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/socket/rpcinet/conn"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/socket/rpcinet/notifier"
-	"gvisor.googlesource.com/gvisor/pkg/syserr"
-	"gvisor.googlesource.com/gvisor/pkg/unet"
+	"gvisor.dev/pkg/sentry/inet"
+	"gvisor.dev/pkg/sentry/socket/hostinet"
+	"gvisor.dev/pkg/sentry/socket/rpcinet/conn"
+	"gvisor.dev/pkg/sentry/socket/rpcinet/notifier"
+	"gvisor.dev/pkg/syserr"
+	"gvisor.dev/pkg/unet"
 )
 
 // Stack implements inet.Stack for RPC backed sockets.

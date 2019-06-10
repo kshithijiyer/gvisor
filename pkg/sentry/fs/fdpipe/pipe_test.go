@@ -21,12 +21,12 @@ import (
 	"syscall"
 	"testing"
 
-	"gvisor.googlesource.com/gvisor/pkg/fd"
-	"gvisor.googlesource.com/gvisor/pkg/fdnotifier"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context/contexttest"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/fs"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usermem"
-	"gvisor.googlesource.com/gvisor/pkg/syserror"
+	"gvisor.dev/pkg/fd"
+	"gvisor.dev/pkg/fdnotifier"
+	"gvisor.dev/pkg/sentry/context/contexttest"
+	"gvisor.dev/pkg/sentry/fs"
+	"gvisor.dev/pkg/sentry/usermem"
+	"gvisor.dev/pkg/syserror"
 )
 
 func singlePipeFD() (int, error) {

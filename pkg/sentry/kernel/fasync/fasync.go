@@ -18,11 +18,11 @@ package fasync
 import (
 	"sync"
 
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/fs"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/kernel"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/kernel/auth"
-	"gvisor.googlesource.com/gvisor/pkg/waiter"
+	"gvisor.dev/pkg/abi/linux"
+	"gvisor.dev/pkg/sentry/fs"
+	"gvisor.dev/pkg/sentry/kernel"
+	"gvisor.dev/pkg/sentry/kernel/auth"
+	"gvisor.dev/pkg/waiter"
 )
 
 // New creates a new FileAsync.

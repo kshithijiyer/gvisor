@@ -9,7 +9,7 @@ go_library(
         "atomic_bitops_amd64.s",
         "atomic_bitops_common.go",
     ],
-    importpath = "gvisor.googlesource.com/gvisor/pkg/atomicbitops",
+    importpath = "gvisor.dev/pkg/atomicbitops",
     visibility = ["//:sandbox"],
 )
 

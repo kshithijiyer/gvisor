@@ -17,10 +17,10 @@ package kernel
 import (
 	"math"
 
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/arch"
-	ktime "gvisor.googlesource.com/gvisor/pkg/sentry/kernel/time"
-	"gvisor.googlesource.com/gvisor/pkg/syserror"
+	"gvisor.dev/pkg/abi/linux"
+	"gvisor.dev/pkg/sentry/arch"
+	ktime "gvisor.dev/pkg/sentry/kernel/time"
+	"gvisor.dev/pkg/syserror"
 )
 
 // IntervalTimer represents a POSIX interval timer as described by

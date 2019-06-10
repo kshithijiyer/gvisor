@@ -15,11 +15,11 @@
 package fs
 
 import (
-	"gvisor.googlesource.com/gvisor/pkg/sentry/arch"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/memmap"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usermem"
-	"gvisor.googlesource.com/gvisor/pkg/waiter"
+	"gvisor.dev/pkg/sentry/arch"
+	"gvisor.dev/pkg/sentry/context"
+	"gvisor.dev/pkg/sentry/memmap"
+	"gvisor.dev/pkg/sentry/usermem"
+	"gvisor.dev/pkg/waiter"
 )
 
 // SpliceOpts define how a splice works.

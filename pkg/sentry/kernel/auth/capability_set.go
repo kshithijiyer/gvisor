@@ -15,8 +15,8 @@
 package auth
 
 import (
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
-	"gvisor.googlesource.com/gvisor/pkg/bits"
+	"gvisor.dev/pkg/abi/linux"
+	"gvisor.dev/pkg/bits"
 )
 
 // A CapabilitySet is a set of capabilities implemented as a bitset. The zero

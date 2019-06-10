@@ -30,14 +30,14 @@ import (
 	"syscall"
 	"time"
 
-	"gvisor.googlesource.com/gvisor/pkg/log"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/hostmm"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/platform"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/safemem"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usage"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usermem"
-	"gvisor.googlesource.com/gvisor/pkg/syserror"
+	"gvisor.dev/pkg/log"
+	"gvisor.dev/pkg/sentry/context"
+	"gvisor.dev/pkg/sentry/hostmm"
+	"gvisor.dev/pkg/sentry/platform"
+	"gvisor.dev/pkg/sentry/safemem"
+	"gvisor.dev/pkg/sentry/usage"
+	"gvisor.dev/pkg/sentry/usermem"
+	"gvisor.dev/pkg/syserror"
 )
 
 // MemoryFile is a platform.File whose pages may be allocated to arbitrary

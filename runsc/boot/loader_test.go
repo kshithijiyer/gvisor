@@ -25,13 +25,13 @@ import (
 	"time"
 
 	specs "github.com/opencontainers/runtime-spec/specs-go"
-	"gvisor.googlesource.com/gvisor/pkg/control/server"
-	"gvisor.googlesource.com/gvisor/pkg/log"
-	"gvisor.googlesource.com/gvisor/pkg/p9"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context/contexttest"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/fs"
-	"gvisor.googlesource.com/gvisor/pkg/unet"
-	"gvisor.googlesource.com/gvisor/runsc/fsgofer"
+	"gvisor.dev/pkg/control/server"
+	"gvisor.dev/pkg/log"
+	"gvisor.dev/pkg/p9"
+	"gvisor.dev/pkg/sentry/context/contexttest"
+	"gvisor.dev/pkg/sentry/fs"
+	"gvisor.dev/pkg/unet"
+	"gvisor.dev/runsc/fsgofer"
 )
 
 func init() {

@@ -15,14 +15,14 @@
 package epsocket
 
 import (
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
-	"gvisor.googlesource.com/gvisor/pkg/log"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/inet"
-	"gvisor.googlesource.com/gvisor/pkg/syserr"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/network/ipv4"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/network/ipv6"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/stack"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/transport/tcp"
+	"gvisor.dev/pkg/abi/linux"
+	"gvisor.dev/pkg/log"
+	"gvisor.dev/pkg/sentry/inet"
+	"gvisor.dev/pkg/syserr"
+	"gvisor.dev/pkg/tcpip/network/ipv4"
+	"gvisor.dev/pkg/tcpip/network/ipv6"
+	"gvisor.dev/pkg/tcpip/stack"
+	"gvisor.dev/pkg/tcpip/transport/tcp"
 )
 
 // Stack implements inet.Stack for netstack/tcpip/stack.Stack.

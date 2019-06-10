@@ -7,7 +7,7 @@ go_library(
     srcs = [
         "gate.go",
     ],
-    importpath = "gvisor.googlesource.com/gvisor/pkg/gate",
+    importpath = "gvisor.dev/pkg/gate",
     visibility = ["//visibility:public"],
 )
 

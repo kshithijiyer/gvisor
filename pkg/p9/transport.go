@@ -22,9 +22,9 @@ import (
 	"sync"
 	"syscall"
 
-	"gvisor.googlesource.com/gvisor/pkg/fd"
-	"gvisor.googlesource.com/gvisor/pkg/log"
-	"gvisor.googlesource.com/gvisor/pkg/unet"
+	"gvisor.dev/pkg/fd"
+	"gvisor.dev/pkg/log"
+	"gvisor.dev/pkg/unet"
 )
 
 // ErrSocket is returned in cases of a socket issue.

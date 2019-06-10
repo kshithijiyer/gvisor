@@ -18,13 +18,13 @@ import (
 	"fmt"
 	"syscall"
 
-	"gvisor.googlesource.com/gvisor/pkg/log"
-	"gvisor.googlesource.com/gvisor/pkg/p9"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/device"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/fs"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/socket/unix/transport"
-	"gvisor.googlesource.com/gvisor/pkg/syserror"
+	"gvisor.dev/pkg/log"
+	"gvisor.dev/pkg/p9"
+	"gvisor.dev/pkg/sentry/context"
+	"gvisor.dev/pkg/sentry/device"
+	"gvisor.dev/pkg/sentry/fs"
+	"gvisor.dev/pkg/sentry/socket/unix/transport"
+	"gvisor.dev/pkg/syserror"
 )
 
 // maxFilenameLen is the maximum length of a filename. This is dictated by 9P's

@@ -15,7 +15,7 @@
 package pipe
 
 import (
-	"gvisor.googlesource.com/gvisor/pkg/waiter"
+	"gvisor.dev/pkg/waiter"
 )
 
 // Writer satisfies the fs.FileOperations interface for write-only pipes.

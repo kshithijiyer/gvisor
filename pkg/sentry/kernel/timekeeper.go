@@ -19,11 +19,11 @@ import (
 	"sync"
 	"time"
 
-	"gvisor.googlesource.com/gvisor/pkg/log"
-	ktime "gvisor.googlesource.com/gvisor/pkg/sentry/kernel/time"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/pgalloc"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/platform"
-	sentrytime "gvisor.googlesource.com/gvisor/pkg/sentry/time"
+	"gvisor.dev/pkg/log"
+	ktime "gvisor.dev/pkg/sentry/kernel/time"
+	"gvisor.dev/pkg/sentry/pgalloc"
+	"gvisor.dev/pkg/sentry/platform"
+	sentrytime "gvisor.dev/pkg/sentry/time"
 )
 
 // Timekeeper manages all of the kernel clocks.

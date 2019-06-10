@@ -17,7 +17,7 @@ package bpf
 import (
 	"fmt"
 
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
+	"gvisor.dev/pkg/abi/linux"
 )
 
 // Possible values for ProgramError.Code.

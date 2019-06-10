@@ -17,8 +17,8 @@ package host
 import (
 	"syscall"
 
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
-	"gvisor.googlesource.com/gvisor/pkg/syserror"
+	"gvisor.dev/pkg/abi/linux"
+	"gvisor.dev/pkg/syserror"
 )
 
 // maxIovs is the maximum number of iovecs to pass to the host.

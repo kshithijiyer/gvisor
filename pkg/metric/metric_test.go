@@ -18,8 +18,8 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"gvisor.googlesource.com/gvisor/pkg/eventchannel"
-	pb "gvisor.googlesource.com/gvisor/pkg/metric/metric_go_proto"
+	"gvisor.dev/pkg/eventchannel"
+	pb "gvisor.dev/pkg/metric/metric_go_proto"
 )
 
 // sliceEmitter implements eventchannel.Emitter by appending all messages to a

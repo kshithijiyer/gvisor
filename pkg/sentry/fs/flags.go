@@ -15,7 +15,7 @@
 package fs
 
 import (
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
+	"gvisor.dev/pkg/abi/linux"
 )
 
 // FileFlags encodes file flags.

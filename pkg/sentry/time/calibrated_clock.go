@@ -20,9 +20,9 @@ import (
 	"sync"
 	"time"
 
-	"gvisor.googlesource.com/gvisor/pkg/log"
-	"gvisor.googlesource.com/gvisor/pkg/metric"
-	"gvisor.googlesource.com/gvisor/pkg/syserror"
+	"gvisor.dev/pkg/log"
+	"gvisor.dev/pkg/metric"
+	"gvisor.dev/pkg/syserror"
 )
 
 // fallbackMetric tracks failed updates. It is not sync, as it is not critical

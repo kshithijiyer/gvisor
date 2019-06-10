@@ -18,7 +18,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
+	"gvisor.dev/pkg/abi/linux"
 )
 
 func ioctlGetTermios(fd int) (*linux.Termios, error) {

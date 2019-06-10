@@ -19,8 +19,8 @@ import (
 
 	"flag"
 	"github.com/google/subcommands"
-	"gvisor.googlesource.com/gvisor/runsc/boot"
-	"gvisor.googlesource.com/gvisor/runsc/container"
+	"gvisor.dev/runsc/boot"
+	"gvisor.dev/runsc/container"
 )
 
 // Pause implements subcommands.Command for the "pause" command.

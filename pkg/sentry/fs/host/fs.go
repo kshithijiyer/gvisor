@@ -23,9 +23,9 @@ import (
 	"strconv"
 	"strings"
 
-	"gvisor.googlesource.com/gvisor/pkg/log"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/fs"
+	"gvisor.dev/pkg/log"
+	"gvisor.dev/pkg/sentry/context"
+	"gvisor.dev/pkg/sentry/fs"
 )
 
 // FilesystemName is the name under which Filesystem is registered.

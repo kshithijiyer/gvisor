@@ -23,7 +23,7 @@ import (
 	"unsafe"
 
 	"golang.org/x/sys/unix"
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
+	"gvisor.dev/pkg/abi/linux"
 )
 
 // maskPool contains reusable CPU masks for setting affinity. Unfortunately,

@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"sort"
 
-	"gvisor.googlesource.com/gvisor/pkg/log"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usermem"
+	"gvisor.dev/pkg/log"
+	"gvisor.dev/pkg/sentry/usermem"
 )
 
 const (

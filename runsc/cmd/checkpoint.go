@@ -22,10 +22,10 @@ import (
 
 	"flag"
 	"github.com/google/subcommands"
-	"gvisor.googlesource.com/gvisor/pkg/log"
-	"gvisor.googlesource.com/gvisor/runsc/boot"
-	"gvisor.googlesource.com/gvisor/runsc/container"
-	"gvisor.googlesource.com/gvisor/runsc/specutils"
+	"gvisor.dev/pkg/log"
+	"gvisor.dev/runsc/boot"
+	"gvisor.dev/runsc/container"
+	"gvisor.dev/runsc/specutils"
 )
 
 // File containing the container's saved image/state within the given image-path's directory.

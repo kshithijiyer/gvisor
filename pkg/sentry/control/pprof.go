@@ -21,8 +21,8 @@ import (
 	"runtime/trace"
 	"sync"
 
-	"gvisor.googlesource.com/gvisor/pkg/fd"
-	"gvisor.googlesource.com/gvisor/pkg/urpc"
+	"gvisor.dev/pkg/fd"
+	"gvisor.dev/pkg/urpc"
 )
 
 var errNoOutput = errors.New("no output writer provided")

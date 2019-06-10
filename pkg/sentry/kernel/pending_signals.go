@@ -15,9 +15,9 @@
 package kernel
 
 import (
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
-	"gvisor.googlesource.com/gvisor/pkg/bits"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/arch"
+	"gvisor.dev/pkg/abi/linux"
+	"gvisor.dev/pkg/bits"
+	"gvisor.dev/pkg/sentry/arch"
 )
 
 const (

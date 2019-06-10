@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.googlesource.com/gvisor/pkg/sleep"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip"
+	"gvisor.dev/pkg/sleep"
+	"gvisor.dev/pkg/tcpip"
 )
 
 type testaddr struct {

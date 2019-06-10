@@ -15,10 +15,10 @@
 package kernel
 
 import (
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/kernel/auth"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/mm"
-	"gvisor.googlesource.com/gvisor/pkg/syserror"
+	"gvisor.dev/pkg/abi/linux"
+	"gvisor.dev/pkg/sentry/kernel/auth"
+	"gvisor.dev/pkg/sentry/mm"
+	"gvisor.dev/pkg/syserror"
 )
 
 // Credentials returns t's credentials.

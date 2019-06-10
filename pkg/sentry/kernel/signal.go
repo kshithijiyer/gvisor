@@ -17,10 +17,10 @@ package kernel
 import (
 	"fmt"
 
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
-	"gvisor.googlesource.com/gvisor/pkg/log"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/arch"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/platform"
+	"gvisor.dev/pkg/abi/linux"
+	"gvisor.dev/pkg/log"
+	"gvisor.dev/pkg/sentry/arch"
+	"gvisor.dev/pkg/sentry/platform"
 )
 
 // SignalPanic is used to panic the running threads. It is a signal which

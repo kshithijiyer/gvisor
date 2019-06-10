@@ -12,7 +12,7 @@ go_library(
         "mmap_amd64_unsafe.go",
         "packet_dispatchers.go",
     ],
-    importpath = "gvisor.googlesource.com/gvisor/pkg/tcpip/link/fdbased",
+    importpath = "gvisor.dev/pkg/tcpip/link/fdbased",
     visibility = [
         "//visibility:public",
     ],

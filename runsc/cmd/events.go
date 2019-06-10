@@ -22,9 +22,9 @@ import (
 
 	"flag"
 	"github.com/google/subcommands"
-	"gvisor.googlesource.com/gvisor/pkg/log"
-	"gvisor.googlesource.com/gvisor/runsc/boot"
-	"gvisor.googlesource.com/gvisor/runsc/container"
+	"gvisor.dev/pkg/log"
+	"gvisor.dev/runsc/boot"
+	"gvisor.dev/runsc/container"
 )
 
 // Events implements subcommands.Command for the "events" command.

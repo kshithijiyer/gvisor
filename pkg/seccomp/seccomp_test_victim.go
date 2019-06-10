@@ -22,7 +22,7 @@ import (
 	"os"
 	"syscall"
 
-	"gvisor.googlesource.com/gvisor/pkg/seccomp"
+	"gvisor.dev/pkg/seccomp"
 )
 
 func main() {

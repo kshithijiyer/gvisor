@@ -26,11 +26,11 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.googlesource.com/gvisor/pkg/tcpip"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/buffer"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/header"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/transport/tcp"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/transport/tcp/testing/context"
+	"gvisor.dev/pkg/tcpip"
+	"gvisor.dev/pkg/tcpip/buffer"
+	"gvisor.dev/pkg/tcpip/header"
+	"gvisor.dev/pkg/tcpip/transport/tcp"
+	"gvisor.dev/pkg/tcpip/transport/tcp/testing/context"
 )
 
 func TestFastRecovery(t *testing.T) {

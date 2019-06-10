@@ -18,13 +18,13 @@ package route
 import (
 	"bytes"
 
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/inet"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/kernel"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/kernel/auth"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/socket/netlink"
-	"gvisor.googlesource.com/gvisor/pkg/syserr"
+	"gvisor.dev/pkg/abi/linux"
+	"gvisor.dev/pkg/sentry/context"
+	"gvisor.dev/pkg/sentry/inet"
+	"gvisor.dev/pkg/sentry/kernel"
+	"gvisor.dev/pkg/sentry/kernel/auth"
+	"gvisor.dev/pkg/sentry/socket/netlink"
+	"gvisor.dev/pkg/syserr"
 )
 
 // commandKind describes the operational class of a message type.

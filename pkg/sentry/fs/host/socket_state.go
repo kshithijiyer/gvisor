@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"syscall"
 
-	"gvisor.googlesource.com/gvisor/pkg/fd"
+	"gvisor.dev/pkg/fd"
 )
 
 // beforeSave is invoked by stateify.

@@ -18,8 +18,8 @@ import (
 	"reflect"
 	"testing"
 
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/inet"
+	"gvisor.dev/pkg/abi/linux"
+	"gvisor.dev/pkg/sentry/inet"
 )
 
 func newIPv6TestStack() *inet.TestStack {

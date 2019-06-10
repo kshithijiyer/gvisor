@@ -27,10 +27,10 @@ import (
 
 	"github.com/kr/pty"
 	"golang.org/x/sys/unix"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/control"
-	"gvisor.googlesource.com/gvisor/pkg/unet"
-	"gvisor.googlesource.com/gvisor/pkg/urpc"
-	"gvisor.googlesource.com/gvisor/runsc/test/testutil"
+	"gvisor.dev/pkg/sentry/control"
+	"gvisor.dev/pkg/unet"
+	"gvisor.dev/pkg/urpc"
+	"gvisor.dev/runsc/test/testutil"
 )
 
 // socketPath creates a path inside bundleDir and ensures that the returned

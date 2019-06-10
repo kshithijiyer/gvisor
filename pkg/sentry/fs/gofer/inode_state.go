@@ -20,11 +20,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"gvisor.googlesource.com/gvisor/pkg/p9"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/device"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/fs"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/kernel/time"
+	"gvisor.dev/pkg/p9"
+	"gvisor.dev/pkg/sentry/context"
+	"gvisor.dev/pkg/sentry/device"
+	"gvisor.dev/pkg/sentry/fs"
+	"gvisor.dev/pkg/sentry/kernel/time"
 )
 
 // Some fs implementations may not support atime, ctime, or mtime in getattr.

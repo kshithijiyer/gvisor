@@ -15,10 +15,10 @@
 package stack
 
 import (
-	"gvisor.googlesource.com/gvisor/pkg/sleep"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/buffer"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/header"
+	"gvisor.dev/pkg/sleep"
+	"gvisor.dev/pkg/tcpip"
+	"gvisor.dev/pkg/tcpip/buffer"
+	"gvisor.dev/pkg/tcpip/header"
 )
 
 // Route represents a route through the networking stack to a given destination.

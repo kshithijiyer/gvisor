@@ -15,10 +15,10 @@
 package transport
 
 import (
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
-	"gvisor.googlesource.com/gvisor/pkg/syserr"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip"
-	"gvisor.googlesource.com/gvisor/pkg/waiter"
+	"gvisor.dev/pkg/abi/linux"
+	"gvisor.dev/pkg/syserr"
+	"gvisor.dev/pkg/tcpip"
+	"gvisor.dev/pkg/waiter"
 )
 
 // connectionlessEndpoint is a unix endpoint for unix sockets that support operating in

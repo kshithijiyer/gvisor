@@ -25,10 +25,10 @@
 package syscalls
 
 import (
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/arch"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/kernel"
-	"gvisor.googlesource.com/gvisor/pkg/syserror"
+	"gvisor.dev/pkg/abi/linux"
+	"gvisor.dev/pkg/sentry/arch"
+	"gvisor.dev/pkg/sentry/kernel"
+	"gvisor.dev/pkg/syserror"
 )
 
 // Error returns a syscall handler that will always give the passed error.

@@ -17,8 +17,8 @@
 package uniqueid
 
 import (
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/socket/unix/transport"
+	"gvisor.dev/pkg/sentry/context"
+	"gvisor.dev/pkg/sentry/socket/unix/transport"
 )
 
 // contextID is the kernel package's type for context.Context.Value keys.

@@ -17,7 +17,7 @@
 package seccomp
 
 import (
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
+	"gvisor.dev/pkg/abi/linux"
 )
 
 const (

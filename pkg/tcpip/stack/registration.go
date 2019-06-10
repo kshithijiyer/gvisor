@@ -17,10 +17,10 @@ package stack
 import (
 	"sync"
 
-	"gvisor.googlesource.com/gvisor/pkg/sleep"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/buffer"
-	"gvisor.googlesource.com/gvisor/pkg/waiter"
+	"gvisor.dev/pkg/sleep"
+	"gvisor.dev/pkg/tcpip"
+	"gvisor.dev/pkg/tcpip/buffer"
+	"gvisor.dev/pkg/waiter"
 )
 
 // NetworkEndpointID is the identifier of a network layer protocol endpoint.

@@ -21,11 +21,11 @@ import (
 	"sync"
 	"syscall"
 
-	"gvisor.googlesource.com/gvisor/pkg/cpuid"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/platform"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/platform/ring0"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/platform/ring0/pagetables"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usermem"
+	"gvisor.dev/pkg/cpuid"
+	"gvisor.dev/pkg/sentry/platform"
+	"gvisor.dev/pkg/sentry/platform/ring0"
+	"gvisor.dev/pkg/sentry/platform/ring0/pagetables"
+	"gvisor.dev/pkg/sentry/usermem"
 )
 
 // KVM represents a lightweight VM context.

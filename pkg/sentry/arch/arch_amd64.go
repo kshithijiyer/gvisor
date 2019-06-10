@@ -22,10 +22,10 @@ import (
 	"math/rand"
 	"syscall"
 
-	"gvisor.googlesource.com/gvisor/pkg/binary"
-	"gvisor.googlesource.com/gvisor/pkg/cpuid"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/limits"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usermem"
+	"gvisor.dev/pkg/binary"
+	"gvisor.dev/pkg/cpuid"
+	"gvisor.dev/pkg/sentry/limits"
+	"gvisor.dev/pkg/sentry/usermem"
 )
 
 // Host specifies the host architecture.

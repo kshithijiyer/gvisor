@@ -18,7 +18,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usermem"
+	"gvisor.dev/pkg/sentry/usermem"
 )
 
 func TestBufferSize(t *testing.T) {

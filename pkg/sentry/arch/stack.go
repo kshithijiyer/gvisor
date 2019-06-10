@@ -18,8 +18,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usermem"
+	"gvisor.dev/pkg/sentry/context"
+	"gvisor.dev/pkg/sentry/usermem"
 )
 
 // Stack is a simple wrapper around a usermem.IO and an address.

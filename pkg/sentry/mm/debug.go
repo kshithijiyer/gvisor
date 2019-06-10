@@ -18,7 +18,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context"
+	"gvisor.dev/pkg/sentry/context"
 )
 
 const (

@@ -38,7 +38,7 @@ go_library(
         "int_set.go",
         "set_functions.go",
     ],
-    importpath = "gvisor.googlesource.com/gvisor/pkg/segment/segment",
+    importpath = "gvisor.dev/pkg/segment/segment",
     deps = [
         "//pkg/state",
     ],

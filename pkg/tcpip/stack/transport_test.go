@@ -17,12 +17,12 @@ package stack_test
 import (
 	"testing"
 
-	"gvisor.googlesource.com/gvisor/pkg/tcpip"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/buffer"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/link/channel"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/link/loopback"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/stack"
-	"gvisor.googlesource.com/gvisor/pkg/waiter"
+	"gvisor.dev/pkg/tcpip"
+	"gvisor.dev/pkg/tcpip/buffer"
+	"gvisor.dev/pkg/tcpip/link/channel"
+	"gvisor.dev/pkg/tcpip/link/loopback"
+	"gvisor.dev/pkg/tcpip/stack"
+	"gvisor.dev/pkg/waiter"
 )
 
 const (

@@ -36,7 +36,7 @@ import (
 	"strconv"
 	"strings"
 
-	"gvisor.googlesource.com/gvisor/pkg/log"
+	"gvisor.dev/pkg/log"
 )
 
 // Common references for CPUID leaves and bits:

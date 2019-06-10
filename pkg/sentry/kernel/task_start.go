@@ -15,13 +15,13 @@
 package kernel
 
 import (
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/arch"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/kernel/auth"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/kernel/futex"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/kernel/sched"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usage"
-	"gvisor.googlesource.com/gvisor/pkg/syserror"
+	"gvisor.dev/pkg/abi/linux"
+	"gvisor.dev/pkg/sentry/arch"
+	"gvisor.dev/pkg/sentry/kernel/auth"
+	"gvisor.dev/pkg/sentry/kernel/futex"
+	"gvisor.dev/pkg/sentry/kernel/sched"
+	"gvisor.dev/pkg/sentry/usage"
+	"gvisor.dev/pkg/syserror"
 )
 
 // TaskConfig defines the configuration of a new Task (see below).

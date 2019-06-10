@@ -17,9 +17,9 @@ package tcp_test
 import (
 	"testing"
 
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/header"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/seqnum"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/transport/tcp"
+	"gvisor.dev/pkg/tcpip/header"
+	"gvisor.dev/pkg/tcpip/seqnum"
+	"gvisor.dev/pkg/tcpip/transport/tcp"
 )
 
 const smss = 1500

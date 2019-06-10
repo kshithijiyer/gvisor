@@ -24,9 +24,9 @@ import (
 	"os"
 	"sync"
 
-	"gvisor.googlesource.com/gvisor/pkg/log"
-	"gvisor.googlesource.com/gvisor/pkg/unet"
-	"gvisor.googlesource.com/gvisor/pkg/urpc"
+	"gvisor.dev/pkg/log"
+	"gvisor.dev/pkg/unet"
+	"gvisor.dev/pkg/urpc"
 )
 
 // curUID is the unix user ID of the user that the control server is running as.

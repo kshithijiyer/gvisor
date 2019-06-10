@@ -17,9 +17,9 @@ package eventfd
 import (
 	"testing"
 
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context/contexttest"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usermem"
-	"gvisor.googlesource.com/gvisor/pkg/waiter"
+	"gvisor.dev/pkg/sentry/context/contexttest"
+	"gvisor.dev/pkg/sentry/usermem"
+	"gvisor.dev/pkg/waiter"
 )
 
 func TestEventfd(t *testing.T) {

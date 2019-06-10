@@ -18,8 +18,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usermem"
+	"gvisor.dev/pkg/sentry/context"
+	"gvisor.dev/pkg/sentry/usermem"
 )
 
 // inotifyEventBaseSize is the base size of linux's struct inotify_event. This

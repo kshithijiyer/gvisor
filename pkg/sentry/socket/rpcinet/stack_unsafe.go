@@ -18,11 +18,11 @@ import (
 	"syscall"
 	"unsafe"
 
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
-	"gvisor.googlesource.com/gvisor/pkg/binary"
-	pb "gvisor.googlesource.com/gvisor/pkg/sentry/socket/rpcinet/syscall_rpc_go_proto"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usermem"
-	"gvisor.googlesource.com/gvisor/pkg/syserr"
+	"gvisor.dev/pkg/abi/linux"
+	"gvisor.dev/pkg/binary"
+	pb "gvisor.dev/pkg/sentry/socket/rpcinet/syscall_rpc_go_proto"
+	"gvisor.dev/pkg/sentry/usermem"
+	"gvisor.dev/pkg/syserr"
 )
 
 // NewNetlinkRouteRequest builds a netlink message for getting the RIB,

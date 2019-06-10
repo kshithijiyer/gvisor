@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"syscall"
 
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/device"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/fs"
+	"gvisor.dev/pkg/sentry/context"
+	"gvisor.dev/pkg/sentry/device"
+	"gvisor.dev/pkg/sentry/fs"
 )
 
 // beforeSave is invoked by stateify.

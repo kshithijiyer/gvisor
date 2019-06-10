@@ -27,9 +27,9 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
-	"gvisor.googlesource.com/gvisor/pkg/binary"
-	"gvisor.googlesource.com/gvisor/pkg/bpf"
+	"gvisor.dev/pkg/abi/linux"
+	"gvisor.dev/pkg/binary"
+	"gvisor.dev/pkg/bpf"
 )
 
 type seccompData struct {

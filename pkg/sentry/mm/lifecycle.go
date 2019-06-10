@@ -18,14 +18,14 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"gvisor.googlesource.com/gvisor/pkg/atomicbitops"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/arch"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/limits"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/memmap"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/pgalloc"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/platform"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usermem"
+	"gvisor.dev/pkg/atomicbitops"
+	"gvisor.dev/pkg/sentry/arch"
+	"gvisor.dev/pkg/sentry/context"
+	"gvisor.dev/pkg/sentry/limits"
+	"gvisor.dev/pkg/sentry/memmap"
+	"gvisor.dev/pkg/sentry/pgalloc"
+	"gvisor.dev/pkg/sentry/platform"
+	"gvisor.dev/pkg/sentry/usermem"
 )
 
 // NewMemoryManager returns a new MemoryManager with no mappings and 1 user.

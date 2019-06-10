@@ -18,7 +18,7 @@ import (
 	"container/heap"
 	"fmt"
 
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/buffer"
+	"gvisor.dev/pkg/tcpip/buffer"
 )
 
 type fragment struct {

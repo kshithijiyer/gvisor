@@ -15,8 +15,8 @@
 package strace
 
 import (
-	"gvisor.googlesource.com/gvisor/pkg/abi"
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
+	"gvisor.dev/pkg/abi"
+	"gvisor.dev/pkg/abi/linux"
 )
 
 // CapabilityBitset is the set of capabilties in a bitset.

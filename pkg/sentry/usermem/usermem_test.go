@@ -22,9 +22,9 @@ import (
 	"strings"
 	"testing"
 
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/safemem"
-	"gvisor.googlesource.com/gvisor/pkg/syserror"
+	"gvisor.dev/pkg/sentry/context"
+	"gvisor.dev/pkg/sentry/safemem"
+	"gvisor.dev/pkg/syserror"
 )
 
 // newContext returns a context.Context that we can use in these tests (we

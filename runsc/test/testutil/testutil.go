@@ -40,8 +40,8 @@ import (
 	"github.com/cenkalti/backoff"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/syndtr/gocapability/capability"
-	"gvisor.googlesource.com/gvisor/runsc/boot"
-	"gvisor.googlesource.com/gvisor/runsc/specutils"
+	"gvisor.dev/runsc/boot"
+	"gvisor.dev/runsc/specutils"
 )
 
 func init() {

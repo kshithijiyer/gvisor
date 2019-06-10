@@ -5,7 +5,7 @@ package(licenses = ["notice"])
 go_library(
     name = "syserror",
     srcs = ["syserror.go"],
-    importpath = "gvisor.googlesource.com/gvisor/pkg/syserror",
+    importpath = "gvisor.dev/pkg/syserror",
     visibility = ["//visibility:public"],
 )
 

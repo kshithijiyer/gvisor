@@ -9,7 +9,7 @@ go_library(
         "hook.go",
         "status.go",
     ],
-    importpath = "gvisor.googlesource.com/gvisor/runsc/container",
+    importpath = "gvisor.dev/runsc/container",
     visibility = [
         "//runsc:__subpackages__",
         "//test:__subpackages__",

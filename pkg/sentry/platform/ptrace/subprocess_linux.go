@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"syscall"
 
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
-	"gvisor.googlesource.com/gvisor/pkg/log"
-	"gvisor.googlesource.com/gvisor/pkg/procid"
-	"gvisor.googlesource.com/gvisor/pkg/seccomp"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/arch"
+	"gvisor.dev/pkg/abi/linux"
+	"gvisor.dev/pkg/log"
+	"gvisor.dev/pkg/procid"
+	"gvisor.dev/pkg/seccomp"
+	"gvisor.dev/pkg/sentry/arch"
 )
 
 const syscallEvent syscall.Signal = 0x80

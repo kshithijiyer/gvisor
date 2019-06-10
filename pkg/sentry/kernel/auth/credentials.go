@@ -15,8 +15,8 @@
 package auth
 
 import (
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
-	"gvisor.googlesource.com/gvisor/pkg/syserror"
+	"gvisor.dev/pkg/abi/linux"
+	"gvisor.dev/pkg/syserror"
 )
 
 // Credentials contains information required to authorize privileged operations

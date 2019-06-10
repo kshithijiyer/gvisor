@@ -44,11 +44,11 @@ import (
 	"syscall"
 
 	"golang.org/x/sys/unix"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/buffer"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/header"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/link/rawfile"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/stack"
+	"gvisor.dev/pkg/tcpip"
+	"gvisor.dev/pkg/tcpip/buffer"
+	"gvisor.dev/pkg/tcpip/header"
+	"gvisor.dev/pkg/tcpip/link/rawfile"
+	"gvisor.dev/pkg/tcpip/stack"
 )
 
 // linkDispatcher reads packets from the link FD and dispatches them to the

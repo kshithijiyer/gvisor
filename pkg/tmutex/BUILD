@@ -5,7 +5,7 @@ package(licenses = ["notice"])
 go_library(
     name = "tmutex",
     srcs = ["tmutex.go"],
-    importpath = "gvisor.googlesource.com/gvisor/pkg/tmutex",
+    importpath = "gvisor.dev/pkg/tmutex",
     visibility = ["//:sandbox"],
 )
 

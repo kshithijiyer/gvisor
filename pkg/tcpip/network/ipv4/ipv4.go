@@ -23,12 +23,12 @@ package ipv4
 import (
 	"sync/atomic"
 
-	"gvisor.googlesource.com/gvisor/pkg/tcpip"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/buffer"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/header"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/network/fragmentation"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/network/hash"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/stack"
+	"gvisor.dev/pkg/tcpip"
+	"gvisor.dev/pkg/tcpip/buffer"
+	"gvisor.dev/pkg/tcpip/header"
+	"gvisor.dev/pkg/tcpip/network/fragmentation"
+	"gvisor.dev/pkg/tcpip/network/hash"
+	"gvisor.dev/pkg/tcpip/stack"
 )
 
 const (

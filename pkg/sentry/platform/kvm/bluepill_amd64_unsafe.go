@@ -19,8 +19,8 @@ package kvm
 import (
 	"unsafe"
 
-	"gvisor.googlesource.com/gvisor/pkg/sentry/arch"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/platform/ring0"
+	"gvisor.dev/pkg/sentry/arch"
+	"gvisor.dev/pkg/sentry/platform/ring0"
 )
 
 // bluepillArchContext returns the arch-specific context.

@@ -15,8 +15,8 @@
 package fs
 
 import (
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context"
-	"gvisor.googlesource.com/gvisor/pkg/syserror"
+	"gvisor.dev/pkg/sentry/context"
+	"gvisor.dev/pkg/syserror"
 )
 
 // MockInodeOperations implements InodeOperations for testing Inodes.

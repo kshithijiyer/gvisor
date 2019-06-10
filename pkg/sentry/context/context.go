@@ -16,8 +16,8 @@
 package context
 
 import (
-	"gvisor.googlesource.com/gvisor/pkg/amutex"
-	"gvisor.googlesource.com/gvisor/pkg/log"
+	"gvisor.dev/pkg/amutex"
+	"gvisor.dev/pkg/log"
 )
 
 type contextID int

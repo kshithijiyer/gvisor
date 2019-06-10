@@ -18,7 +18,7 @@ go_library(
         "tcp.go",
         "udp.go",
     ],
-    importpath = "gvisor.googlesource.com/gvisor/pkg/tcpip/header",
+    importpath = "gvisor.dev/pkg/tcpip/header",
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/tcpip",

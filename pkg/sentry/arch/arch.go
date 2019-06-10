@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"io"
 
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
-	"gvisor.googlesource.com/gvisor/pkg/cpuid"
-	"gvisor.googlesource.com/gvisor/pkg/log"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/limits"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usermem"
+	"gvisor.dev/pkg/abi/linux"
+	"gvisor.dev/pkg/cpuid"
+	"gvisor.dev/pkg/log"
+	"gvisor.dev/pkg/sentry/limits"
+	"gvisor.dev/pkg/sentry/usermem"
 )
 
 // Arch describes an architecture.

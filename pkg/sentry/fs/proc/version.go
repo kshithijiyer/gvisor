@@ -17,9 +17,9 @@ package proc
 import (
 	"fmt"
 
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/fs/proc/seqfile"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/kernel"
+	"gvisor.dev/pkg/sentry/context"
+	"gvisor.dev/pkg/sentry/fs/proc/seqfile"
+	"gvisor.dev/pkg/sentry/kernel"
 )
 
 // versionData backs /proc/version.

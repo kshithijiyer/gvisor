@@ -22,12 +22,12 @@ import (
 	"sync"
 	"syscall"
 
-	"gvisor.googlesource.com/gvisor/pkg/binary"
-	"gvisor.googlesource.com/gvisor/pkg/cpuid"
-	"gvisor.googlesource.com/gvisor/pkg/log"
-	rpb "gvisor.googlesource.com/gvisor/pkg/sentry/arch/registers_go_proto"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usermem"
-	"gvisor.googlesource.com/gvisor/pkg/syserror"
+	"gvisor.dev/pkg/binary"
+	"gvisor.dev/pkg/cpuid"
+	"gvisor.dev/pkg/log"
+	rpb "gvisor.dev/pkg/sentry/arch/registers_go_proto"
+	"gvisor.dev/pkg/sentry/usermem"
+	"gvisor.dev/pkg/syserror"
 )
 
 // System-related constants for x86.

@@ -20,11 +20,11 @@ package filter
 import (
 	"fmt"
 
-	"gvisor.googlesource.com/gvisor/pkg/log"
-	"gvisor.googlesource.com/gvisor/pkg/seccomp"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/platform"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/platform/kvm"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/platform/ptrace"
+	"gvisor.dev/pkg/log"
+	"gvisor.dev/pkg/seccomp"
+	"gvisor.dev/pkg/sentry/platform"
+	"gvisor.dev/pkg/sentry/platform/kvm"
+	"gvisor.dev/pkg/sentry/platform/ptrace"
 )
 
 // Options are seccomp filter related options.

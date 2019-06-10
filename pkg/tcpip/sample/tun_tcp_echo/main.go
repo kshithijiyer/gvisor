@@ -29,16 +29,16 @@ import (
 	"strings"
 	"time"
 
-	"gvisor.googlesource.com/gvisor/pkg/tcpip"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/link/fdbased"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/link/rawfile"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/link/tun"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/network/arp"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/network/ipv4"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/network/ipv6"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/stack"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/transport/tcp"
-	"gvisor.googlesource.com/gvisor/pkg/waiter"
+	"gvisor.dev/pkg/tcpip"
+	"gvisor.dev/pkg/tcpip/link/fdbased"
+	"gvisor.dev/pkg/tcpip/link/rawfile"
+	"gvisor.dev/pkg/tcpip/link/tun"
+	"gvisor.dev/pkg/tcpip/network/arp"
+	"gvisor.dev/pkg/tcpip/network/ipv4"
+	"gvisor.dev/pkg/tcpip/network/ipv6"
+	"gvisor.dev/pkg/tcpip/stack"
+	"gvisor.dev/pkg/tcpip/transport/tcp"
+	"gvisor.dev/pkg/waiter"
 )
 
 var tap = flag.Bool("tap", false, "use tap istead of tun")

@@ -17,9 +17,9 @@ package kernel
 import (
 	"testing"
 
-	"gvisor.googlesource.com/gvisor/pkg/sentry/fs/filetest"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/kernel/kdefs"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/limits"
+	"gvisor.dev/pkg/sentry/fs/filetest"
+	"gvisor.dev/pkg/sentry/kernel/kdefs"
+	"gvisor.dev/pkg/sentry/limits"
 )
 
 const (

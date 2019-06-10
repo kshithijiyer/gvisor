@@ -65,11 +65,11 @@ package kernel
 // """
 
 import (
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/arch"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/fs"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/mm"
-	"gvisor.googlesource.com/gvisor/pkg/syserror"
+	"gvisor.dev/pkg/abi/linux"
+	"gvisor.dev/pkg/sentry/arch"
+	"gvisor.dev/pkg/sentry/fs"
+	"gvisor.dev/pkg/sentry/mm"
+	"gvisor.dev/pkg/syserror"
 )
 
 // execStop is a TaskStop that a task sets on itself when it wants to execve

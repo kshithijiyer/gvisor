@@ -17,8 +17,8 @@ package ramfs
 import (
 	"testing"
 
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context/contexttest"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/fs"
+	"gvisor.dev/pkg/sentry/context/contexttest"
+	"gvisor.dev/pkg/sentry/fs"
 )
 
 func TestMakeDirectoryTree(t *testing.T) {

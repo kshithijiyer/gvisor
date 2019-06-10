@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"syscall"
 
-	"gvisor.googlesource.com/gvisor/pkg/tcpip"
+	"gvisor.dev/pkg/tcpip"
 )
 
 const maxErrno = 134

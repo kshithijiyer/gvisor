@@ -21,12 +21,12 @@ import (
 	"sync/atomic"
 	"syscall"
 
-	"gvisor.googlesource.com/gvisor/pkg/atomicbitops"
-	"gvisor.googlesource.com/gvisor/pkg/log"
-	"gvisor.googlesource.com/gvisor/pkg/procid"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/platform/ring0"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/platform/ring0/pagetables"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usermem"
+	"gvisor.dev/pkg/atomicbitops"
+	"gvisor.dev/pkg/log"
+	"gvisor.dev/pkg/procid"
+	"gvisor.dev/pkg/sentry/platform/ring0"
+	"gvisor.dev/pkg/sentry/platform/ring0/pagetables"
+	"gvisor.dev/pkg/sentry/usermem"
 )
 
 // machine contains state associated with the VM as a whole.

@@ -28,10 +28,10 @@ import (
 	"time"
 
 	specs "github.com/opencontainers/runtime-spec/specs-go"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/control"
-	"gvisor.googlesource.com/gvisor/runsc/boot"
-	"gvisor.googlesource.com/gvisor/runsc/specutils"
-	"gvisor.googlesource.com/gvisor/runsc/test/testutil"
+	"gvisor.dev/pkg/sentry/control"
+	"gvisor.dev/runsc/boot"
+	"gvisor.dev/runsc/specutils"
+	"gvisor.dev/runsc/test/testutil"
 )
 
 func createSpecs(cmds ...[]string) ([]*specs.Spec, []string) {

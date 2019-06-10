@@ -20,8 +20,8 @@ import (
 	"syscall"
 	"testing"
 
-	"gvisor.googlesource.com/gvisor/pkg/fdnotifier"
-	"gvisor.googlesource.com/gvisor/pkg/waiter"
+	"gvisor.dev/pkg/fdnotifier"
+	"gvisor.dev/pkg/waiter"
 )
 
 func TestDescriptorRelease(t *testing.T) {

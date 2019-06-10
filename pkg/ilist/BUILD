@@ -8,7 +8,7 @@ go_library(
     srcs = [
         "interface_list.go",
     ],
-    importpath = "gvisor.googlesource.com/gvisor/pkg/ilist",
+    importpath = "gvisor.dev/pkg/ilist",
     visibility = ["//visibility:public"],
 )
 

@@ -22,11 +22,11 @@ import (
 	"syscall"
 
 	"github.com/golang/protobuf/proto"
-	"gvisor.googlesource.com/gvisor/pkg/binary"
-	"gvisor.googlesource.com/gvisor/pkg/syserr"
-	"gvisor.googlesource.com/gvisor/pkg/unet"
+	"gvisor.dev/pkg/binary"
+	"gvisor.dev/pkg/syserr"
+	"gvisor.dev/pkg/unet"
 
-	pb "gvisor.googlesource.com/gvisor/pkg/sentry/socket/rpcinet/syscall_rpc_go_proto"
+	pb "gvisor.dev/pkg/sentry/socket/rpcinet/syscall_rpc_go_proto"
 )
 
 type request struct {

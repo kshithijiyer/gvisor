@@ -14,6 +14,6 @@
 
 package hostinet
 
-import "gvisor.googlesource.com/gvisor/pkg/sentry/device"
+import "gvisor.dev/pkg/sentry/device"
 
 var socketDevice = device.NewAnonDevice()

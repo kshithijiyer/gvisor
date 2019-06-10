@@ -10,7 +10,7 @@ go_library(
         "commit_noasm.go",
         "sleep_unsafe.go",
     ],
-    importpath = "gvisor.googlesource.com/gvisor/pkg/sleep",
+    importpath = "gvisor.dev/pkg/sleep",
     visibility = ["//:sandbox"],
 )
 

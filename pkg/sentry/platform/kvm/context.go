@@ -15,11 +15,11 @@
 package kvm
 
 import (
-	"gvisor.googlesource.com/gvisor/pkg/sentry/arch"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/platform"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/platform/interrupt"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/platform/ring0"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usermem"
+	"gvisor.dev/pkg/sentry/arch"
+	"gvisor.dev/pkg/sentry/platform"
+	"gvisor.dev/pkg/sentry/platform/interrupt"
+	"gvisor.dev/pkg/sentry/platform/ring0"
+	"gvisor.dev/pkg/sentry/usermem"
 )
 
 // context is an implementation of the platform context.

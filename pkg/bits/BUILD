@@ -14,7 +14,7 @@ go_library(
         "uint64_arch_amd64_asm.s",
         "uint64_arch_generic.go",
     ],
-    importpath = "gvisor.googlesource.com/gvisor/pkg/bits",
+    importpath = "gvisor.dev/pkg/bits",
     visibility = ["//:sandbox"],
 )
 

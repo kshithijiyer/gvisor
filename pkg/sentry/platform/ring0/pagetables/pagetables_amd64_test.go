@@ -19,7 +19,7 @@ package pagetables
 import (
 	"testing"
 
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usermem"
+	"gvisor.dev/pkg/sentry/usermem"
 )
 
 func Test2MAnd4K(t *testing.T) {

@@ -20,7 +20,7 @@ import (
 	"time"
 	"unsafe"
 
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
+	"gvisor.dev/pkg/abi/linux"
 )
 
 // CPUTime returns the CPU time usage by Sentry and app.

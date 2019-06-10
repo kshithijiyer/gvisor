@@ -15,8 +15,8 @@
 package epoll
 
 import (
-	"gvisor.googlesource.com/gvisor/pkg/refs"
-	"gvisor.googlesource.com/gvisor/pkg/waiter"
+	"gvisor.dev/pkg/refs"
+	"gvisor.dev/pkg/waiter"
 )
 
 // afterLoad is invoked by stateify.

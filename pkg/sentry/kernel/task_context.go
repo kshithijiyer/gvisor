@@ -17,16 +17,16 @@ package kernel
 import (
 	"fmt"
 
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
-	"gvisor.googlesource.com/gvisor/pkg/cpuid"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/arch"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/fs"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/kernel/futex"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/loader"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/mm"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usermem"
-	"gvisor.googlesource.com/gvisor/pkg/syserr"
+	"gvisor.dev/pkg/abi/linux"
+	"gvisor.dev/pkg/cpuid"
+	"gvisor.dev/pkg/sentry/arch"
+	"gvisor.dev/pkg/sentry/context"
+	"gvisor.dev/pkg/sentry/fs"
+	"gvisor.dev/pkg/sentry/kernel/futex"
+	"gvisor.dev/pkg/sentry/loader"
+	"gvisor.dev/pkg/sentry/mm"
+	"gvisor.dev/pkg/sentry/usermem"
+	"gvisor.dev/pkg/syserr"
 )
 
 var errNoSyscalls = syserr.New("no syscall table found", linux.ENOEXEC)

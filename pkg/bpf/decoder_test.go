@@ -17,7 +17,7 @@ package bpf
 import (
 	"testing"
 
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
+	"gvisor.dev/pkg/abi/linux"
 )
 
 func TestDecode(t *testing.T) {

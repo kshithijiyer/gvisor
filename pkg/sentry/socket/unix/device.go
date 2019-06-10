@@ -14,7 +14,7 @@
 
 package unix
 
-import "gvisor.googlesource.com/gvisor/pkg/sentry/device"
+import "gvisor.dev/pkg/sentry/device"
 
 // unixSocketDevice is the unix socket virtual device.
 var unixSocketDevice = device.NewAnonDevice()

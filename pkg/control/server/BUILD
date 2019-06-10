@@ -5,7 +5,7 @@ package(licenses = ["notice"])
 go_library(
     name = "server",
     srcs = ["server.go"],
-    importpath = "gvisor.googlesource.com/gvisor/pkg/control/server",
+    importpath = "gvisor.dev/pkg/control/server",
     visibility = ["//:sandbox"],
     deps = [
         "//pkg/log",

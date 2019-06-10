@@ -15,8 +15,8 @@
 package strace
 
 import (
-	"gvisor.googlesource.com/gvisor/pkg/abi"
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
+	"gvisor.dev/pkg/abi"
+	"gvisor.dev/pkg/abi/linux"
 )
 
 // PtraceRequestSet are the possible ptrace(2) requests.

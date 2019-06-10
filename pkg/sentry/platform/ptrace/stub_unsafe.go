@@ -19,8 +19,8 @@ import (
 	"syscall"
 	"unsafe"
 
-	"gvisor.googlesource.com/gvisor/pkg/sentry/platform/safecopy"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usermem"
+	"gvisor.dev/pkg/sentry/platform/safecopy"
+	"gvisor.dev/pkg/sentry/usermem"
 )
 
 // stub is defined in arch-specific assembly.

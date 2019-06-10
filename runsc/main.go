@@ -29,10 +29,10 @@ import (
 	"flag"
 
 	"github.com/google/subcommands"
-	"gvisor.googlesource.com/gvisor/pkg/log"
-	"gvisor.googlesource.com/gvisor/runsc/boot"
-	"gvisor.googlesource.com/gvisor/runsc/cmd"
-	"gvisor.googlesource.com/gvisor/runsc/specutils"
+	"gvisor.dev/pkg/log"
+	"gvisor.dev/runsc/boot"
+	"gvisor.dev/runsc/cmd"
+	"gvisor.dev/runsc/specutils"
 )
 
 var (

@@ -17,15 +17,15 @@ package ip_test
 import (
 	"testing"
 
-	"gvisor.googlesource.com/gvisor/pkg/tcpip"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/buffer"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/header"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/link/loopback"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/network/ipv4"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/network/ipv6"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/stack"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/transport/tcp"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/transport/udp"
+	"gvisor.dev/pkg/tcpip"
+	"gvisor.dev/pkg/tcpip/buffer"
+	"gvisor.dev/pkg/tcpip/header"
+	"gvisor.dev/pkg/tcpip/link/loopback"
+	"gvisor.dev/pkg/tcpip/network/ipv4"
+	"gvisor.dev/pkg/tcpip/network/ipv6"
+	"gvisor.dev/pkg/tcpip/stack"
+	"gvisor.dev/pkg/tcpip/transport/tcp"
+	"gvisor.dev/pkg/tcpip/transport/udp"
 )
 
 const (

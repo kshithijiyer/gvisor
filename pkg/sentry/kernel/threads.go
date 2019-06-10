@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"sync"
 
-	"gvisor.googlesource.com/gvisor/pkg/sentry/kernel/auth"
-	"gvisor.googlesource.com/gvisor/pkg/waiter"
+	"gvisor.dev/pkg/sentry/kernel/auth"
+	"gvisor.dev/pkg/waiter"
 )
 
 // TasksLimit is the maximum number of threads for untrusted application.

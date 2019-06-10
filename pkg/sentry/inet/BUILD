@@ -12,6 +12,6 @@ go_library(
         "inet.go",
         "test_stack.go",
     ],
-    importpath = "gvisor.googlesource.com/gvisor/pkg/sentry/inet",
+    importpath = "gvisor.dev/pkg/sentry/inet",
     deps = ["//pkg/sentry/context"],
 )

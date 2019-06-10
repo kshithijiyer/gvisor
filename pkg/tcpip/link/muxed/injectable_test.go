@@ -21,11 +21,11 @@ import (
 	"syscall"
 	"testing"
 
-	"gvisor.googlesource.com/gvisor/pkg/tcpip"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/buffer"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/link/fdbased"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/network/ipv4"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip/stack"
+	"gvisor.dev/pkg/tcpip"
+	"gvisor.dev/pkg/tcpip/buffer"
+	"gvisor.dev/pkg/tcpip/link/fdbased"
+	"gvisor.dev/pkg/tcpip/network/ipv4"
+	"gvisor.dev/pkg/tcpip/stack"
 )
 
 func TestInjectableEndpointRawDispatch(t *testing.T) {

@@ -19,8 +19,8 @@ import (
 	"sync"
 	"time"
 
-	"gvisor.googlesource.com/gvisor/pkg/sleep"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip"
+	"gvisor.dev/pkg/sleep"
+	"gvisor.dev/pkg/tcpip"
 )
 
 const linkAddrCacheSize = 512 // max cache entries

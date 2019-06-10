@@ -15,9 +15,9 @@
 package kernel
 
 import (
-	"gvisor.googlesource.com/gvisor/pkg/sentry/kernel/auth"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/kernel/semaphore"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/kernel/shm"
+	"gvisor.dev/pkg/sentry/kernel/auth"
+	"gvisor.dev/pkg/sentry/kernel/semaphore"
+	"gvisor.dev/pkg/sentry/kernel/shm"
 )
 
 // IPCNamespace represents an IPC namespace.

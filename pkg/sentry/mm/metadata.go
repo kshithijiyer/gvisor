@@ -15,9 +15,9 @@
 package mm
 
 import (
-	"gvisor.googlesource.com/gvisor/pkg/sentry/arch"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/fs"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usermem"
+	"gvisor.dev/pkg/sentry/arch"
+	"gvisor.dev/pkg/sentry/fs"
+	"gvisor.dev/pkg/sentry/usermem"
 )
 
 // Dumpability describes if and how core dumps should be created.

@@ -21,12 +21,12 @@ import (
 	"strings"
 	"syscall"
 
-	"gvisor.googlesource.com/gvisor/pkg/binary"
-	"gvisor.googlesource.com/gvisor/pkg/log"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/inet"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usermem"
-	"gvisor.googlesource.com/gvisor/pkg/syserror"
+	"gvisor.dev/pkg/binary"
+	"gvisor.dev/pkg/log"
+	"gvisor.dev/pkg/sentry/context"
+	"gvisor.dev/pkg/sentry/inet"
+	"gvisor.dev/pkg/sentry/usermem"
+	"gvisor.dev/pkg/syserror"
 )
 
 var defaultRecvBufSize = inet.TCPBufferSize{

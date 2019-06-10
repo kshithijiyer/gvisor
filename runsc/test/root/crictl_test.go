@@ -29,9 +29,9 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.googlesource.com/gvisor/runsc/specutils"
-	"gvisor.googlesource.com/gvisor/runsc/test/root/testdata"
-	"gvisor.googlesource.com/gvisor/runsc/test/testutil"
+	"gvisor.dev/runsc/specutils"
+	"gvisor.dev/runsc/test/root/testdata"
+	"gvisor.dev/runsc/test/testutil"
 )
 
 // Tests for crictl have to be run as root (rather than in a user namespace)

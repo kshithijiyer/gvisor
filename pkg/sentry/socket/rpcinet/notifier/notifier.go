@@ -20,9 +20,9 @@ import (
 	"sync"
 	"syscall"
 
-	"gvisor.googlesource.com/gvisor/pkg/sentry/socket/rpcinet/conn"
-	pb "gvisor.googlesource.com/gvisor/pkg/sentry/socket/rpcinet/syscall_rpc_go_proto"
-	"gvisor.googlesource.com/gvisor/pkg/waiter"
+	"gvisor.dev/pkg/sentry/socket/rpcinet/conn"
+	pb "gvisor.dev/pkg/sentry/socket/rpcinet/syscall_rpc_go_proto"
+	"gvisor.dev/pkg/waiter"
 )
 
 type fdInfo struct {

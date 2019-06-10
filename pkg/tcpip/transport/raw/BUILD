@@ -24,8 +24,8 @@ go_library(
         "endpoint_state.go",
         "packet_list.go",
     ],
-    importpath = "gvisor.googlesource.com/gvisor/pkg/tcpip/transport/raw",
-    imports = ["gvisor.googlesource.com/gvisor/pkg/tcpip/buffer"],
+    importpath = "gvisor.dev/pkg/tcpip/transport/raw",
+    imports = ["gvisor.dev/pkg/tcpip/buffer"],
     visibility = ["//visibility:public"],
     deps = [
         "//pkg/log",

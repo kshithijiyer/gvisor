@@ -17,7 +17,7 @@ package tcp
 import (
 	"time"
 
-	"gvisor.googlesource.com/gvisor/pkg/sleep"
+	"gvisor.dev/pkg/sleep"
 )
 
 type timerState int

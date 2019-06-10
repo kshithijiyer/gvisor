@@ -31,7 +31,7 @@ go_library(
         "state.go",
         "wait.go",
     ],
-    importpath = "gvisor.googlesource.com/gvisor/runsc/cmd",
+    importpath = "gvisor.dev/runsc/cmd",
     visibility = [
         "//runsc:__subpackages__",
     ],

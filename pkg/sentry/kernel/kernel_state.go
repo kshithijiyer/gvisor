@@ -15,8 +15,8 @@
 package kernel
 
 import (
-	"gvisor.googlesource.com/gvisor/pkg/sentry/device"
-	"gvisor.googlesource.com/gvisor/pkg/tcpip"
+	"gvisor.dev/pkg/sentry/device"
+	"gvisor.dev/pkg/tcpip"
 )
 
 // saveDanglingEndpoints is invoked by stateify.

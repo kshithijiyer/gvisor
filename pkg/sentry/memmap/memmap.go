@@ -18,10 +18,10 @@ package memmap
 import (
 	"fmt"
 
-	"gvisor.googlesource.com/gvisor/pkg/refs"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/platform"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/usermem"
+	"gvisor.dev/pkg/refs"
+	"gvisor.dev/pkg/sentry/context"
+	"gvisor.dev/pkg/sentry/platform"
+	"gvisor.dev/pkg/sentry/usermem"
 )
 
 // Mappable represents a memory-mappable object, a mutable mapping from uint64

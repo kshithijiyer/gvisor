@@ -58,7 +58,7 @@ Make sure the following dependencies are installed:
 Clone the repository:
 
 ```
-git clone https://gvisor.googlesource.com/gvisor gvisor
+git clone https://github.com/google/gvisor gvisor
 cd gvisor
 ```
 
@@ -115,6 +115,18 @@ Then invoke bazel with the following flags:
 
 You can also add those flags to your local ~/.bazelrc to avoid needing to
 specify them each time on the command line.
+
+### Using `go get`
+
+This project uses [bazel][bazel] to build and manage dependencies. A synthetic
+`go` branch is maintained that is `go get`-compatible for convenience only. You
+can fetch this branch with:
+
+```
+go get gvisor.dev@go
+```
+
+This branch will be supported only in a best effort capacity.
 
 ## Community & Governance
 

@@ -22,7 +22,7 @@ go_library(
         "refcounter_state.go",
         "weak_ref_list.go",
     ],
-    importpath = "gvisor.googlesource.com/gvisor/pkg/refs",
+    importpath = "gvisor.dev/pkg/refs",
     visibility = ["//:sandbox"],
 )
 

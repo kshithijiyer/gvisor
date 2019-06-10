@@ -17,8 +17,8 @@ package bpf
 import (
 	"testing"
 
-	"gvisor.googlesource.com/gvisor/pkg/abi/linux"
-	"gvisor.googlesource.com/gvisor/pkg/binary"
+	"gvisor.dev/pkg/abi/linux"
+	"gvisor.dev/pkg/binary"
 )
 
 func TestCompilationErrors(t *testing.T) {

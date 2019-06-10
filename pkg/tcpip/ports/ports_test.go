@@ -17,7 +17,7 @@ package ports
 import (
 	"testing"
 
-	"gvisor.googlesource.com/gvisor/pkg/tcpip"
+	"gvisor.dev/pkg/tcpip"
 )
 
 const (

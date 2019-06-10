@@ -17,9 +17,9 @@ package dev
 import (
 	"strconv"
 
-	"gvisor.googlesource.com/gvisor/pkg/sentry/context"
-	"gvisor.googlesource.com/gvisor/pkg/sentry/fs"
-	"gvisor.googlesource.com/gvisor/pkg/syserror"
+	"gvisor.dev/pkg/sentry/context"
+	"gvisor.dev/pkg/sentry/fs"
+	"gvisor.dev/pkg/syserror"
 )
 
 // Optional key containing boolean flag which specifies if Android Binder IPC should be enabled.
